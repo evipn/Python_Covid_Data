@@ -159,7 +159,7 @@ if response.status_code == 200:
     connection = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='milko.1-2002',
+        password='12345',
         database='coviddata'
     )
     
